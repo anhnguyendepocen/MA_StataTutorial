@@ -7,7 +7,8 @@
 
 set logtype text
 cap log close
-
+set more off
+clear all
 
 **************************************************
 ******  MERGING GDP and VIIRS DATASETS  **********
