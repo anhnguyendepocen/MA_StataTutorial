@@ -7,7 +7,8 @@
 
 set logtype text
 cap log close
-
+clear all
+set more off
 
 **************************************************
 ******  CREATING THE STATE GDP DATASETs **********
