@@ -64,6 +64,8 @@ bysort economy year : gen count = _N
 	graphregion(color(white)) lcolor(dkgreen) subtitle(, fcolor(white)) fract ///
 	xtitle("GDP")
 
+	graph export "${graphs}/gdp_hist.png", replace
+	
 // Scatter Plots and Line Plots
 
 * Want to Plot Average World GDP over time
